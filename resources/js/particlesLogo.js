@@ -89,7 +89,7 @@ function onTouchEnd(e){
 
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-		ctx.font = "bold "+(ww/10)+"px arial";
+		ctx.font = "bold "+(ww/11)+"px arial";
 		ctx.textAlign = "center";
 		ctx.fillText(copy.value, ww/2, wh/2);
 
